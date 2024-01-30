@@ -1,0 +1,45 @@
+@import'../variable.scss';
+
+.home-page{
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+
+   header{
+    text-align: center;
+    margin-top: 20px;
+
+    h1{
+        color:$color-from
+    }
+    p{
+        color: $color-to;
+    }
+
+    }
+    main{
+
+        .featured-products{
+            h2{
+                color:$color-from;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    footer{
+        margin-top: 20px;
+        color:$color-to;
+        text-align: center;
+        border-top: 1px solid gray;
+       div{
+        display: inline;
+        margin: 0 auto;
+        width: 500px;
+        background-color: lightgray;
+       }
+
+    }
+
+
+}
+

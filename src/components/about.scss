@@ -1,0 +1,18 @@
+@import '../variable.scss';
+ .about{
+    h3{
+        border-width: 4px;
+         border-style: solid;
+         border-image: linear-gradient(to right, $color-from 0%, $color-to 100%) 0 0 100% 0;
+
+  
+   
+
+    }
+    ul{
+       list-style-type: square;
+    }
+    
+   
+    
+ }
